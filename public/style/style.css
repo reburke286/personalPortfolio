@@ -26,3 +26,7 @@
   padding: 15px;
   z-index: 1;
 }
+
+.modal button {
+  float: right;
+}
