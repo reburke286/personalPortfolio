@@ -1,5 +1,11 @@
 .container {
   overflow: hidden;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+p {
+  font-size: 16px;
+  font-weight: bold;
 }
 .container h1 {
   padding: 200px;
@@ -33,4 +39,39 @@
 
 .submitBtn {
   background-color: rgb(234, 109, 115);
+}
+
+#aboutMe {
+  margin-top: 20px;
+}
+#portImage {
+  z-index: 1;
+  opacity: 1;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(234, 109, 115);
+}
+#neilImage {
+  z-index: 1;
+  opacity: 1;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(234, 109, 115);
+}
+
+#beachImage {
+  z-index: 1;
+  opacity: 1;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(234, 109, 115);
 }
