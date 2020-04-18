@@ -30,3 +30,7 @@
 .modal button {
   float: right;
 }
+
+.submitBtn {
+  background-color: rgb(234, 109, 115);
+}
