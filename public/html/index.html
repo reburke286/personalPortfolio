@@ -12,14 +12,26 @@
   />
   <link rel="stylesheet" href="./style/style.css" />
 
+  <!-- Compiled and minified JavaScript -->
+  <script
+    src="https://code.jquery.com/jquery-3.5.0.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+    crossorigin="anonymous"
+  ></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="./script/index.js" ;></script>
+
   <body>
     <nav>
       <div class="nav-wrapper">
-        <a href="#" class="brand-logo">Becca Burke</a>
+        <a href="/" class="brand-logo">Becca Burke</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a href="#">About Me</a></li>
           <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Resume</a></li>
+          <li>
+            <a class="modal-trigger" href="#modal1">Resume</a>
+          </li>
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
@@ -34,6 +46,20 @@
             challenges.
           </h6>
         </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal1"
+      >Modal</a
+    > -->
+
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <button class="modal-close">x</button>
+        <h4>Becca's Resume</h4>
+        <p>My resume will go here</p>
       </div>
     </div>
   </body>
