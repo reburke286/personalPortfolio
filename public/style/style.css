@@ -37,6 +37,16 @@ p {
   float: right;
 }
 
+#modal1 {
+  height: 100%;
+  width: 90%;
+}
+
+object {
+  height: 500px;
+  width: 100%;
+}
+
 .submitBtn {
   background-color: rgb(234, 109, 115);
 }

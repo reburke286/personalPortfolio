@@ -4,4 +4,6 @@ $(document).ready(function () {
   $(".submitBtn").click(function () {
     $(".modal").modal("close");
   });
+
+  $(".sidenav").sidenav();
 });

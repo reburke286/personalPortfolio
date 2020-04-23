@@ -23,7 +23,7 @@
   <script src="./script/index.js" ;></script>
 
   <body>
-    <nav>
+    <!-- <nav>
       <div class="nav-wrapper">
         <a href="/" class="brand-logo">Becca Burke</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
@@ -35,7 +35,30 @@
           <li><a class="modal-trigger" href="#modal2">Contact</a></li>
         </ul>
       </div>
+    </nav> -->
+
+    <nav>
+      <div class="nav-wrapper">
+        <a href="/" class="brand-logo">Becca Burke</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+          ><i class="material-icons">Menu</i></a
+        >
+        <ul class="right hide-on-med-and-down">
+          <li><a href="/">About Me</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a class="modal-trigger" href="#modal1">Resume</a></li>
+          <li><a class="modal-trigger" href="#modal2">Contact</a></li>
+        </ul>
+      </div>
     </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="/">About Me</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a class="modal-trigger" href="#modal1">Resume</a></li>
+      <li><a class="modal-trigger" href="#modal2">Contact</a></li>
+    </ul>
+
     <div class="container" id="aboutMe">
       <img src="style/assets/images/magnolia.jpg" />
       <div class="container">
@@ -97,7 +120,11 @@
       <div class="modal-content">
         <button class="modal-close">x</button>
         <h4>Becca's Resume</h4>
-        <iframe src="style/assets/images/Resume_BeccaBurke2020.pdf"></iframe>
+        <object
+          data="style/assets/images/Resume_BeccaBurke2020.pdf"
+          type="application/pdf"
+        >
+        </object>
       </div>
     </div>
     <!--Contact Modal-->
