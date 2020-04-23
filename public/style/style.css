@@ -1,3 +1,6 @@
+body {
+  background-color: rgb(253, 213, 219);
+}
 .container {
   overflow: hidden;
   font-family: Georgia, "Times New Roman", Times, serif;
