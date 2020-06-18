@@ -88,3 +88,11 @@ object {
   border-width: 5px;
   border-color: rgb(243, 211, 213);
 }
+
+#portfolio img {
+  z-index: 1;
+  opacity: 1;
+  width: 300px;
+  height: 200px;
+  position: relative;
+}
