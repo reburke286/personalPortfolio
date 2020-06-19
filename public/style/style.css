@@ -89,6 +89,10 @@ object {
   border-color: rgb(243, 211, 213);
 }
 
+#portfolio {
+  width: 100%;
+}
+
 #portfolio img {
   z-index: 1;
   opacity: 1;
