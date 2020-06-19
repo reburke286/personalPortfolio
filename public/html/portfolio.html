@@ -58,35 +58,36 @@
         </object>
       </div>
     </div>
+
     <!--Contact Modal-->
-    <div id="modal2" class="modal">
+    <div id="modal2" class="modal" id="msg">
       <div class="modal-content">
         <button class="modal-close">x</button>
         <div class="row">
-          <form class="col s12">
+          <form method="POST" action="msg" class="col s12">
             <div class="row">
               <div class="input-field col s6">
-                <input id="last_name" type="text" class="validate" />
-                <label for="last_name">Name</label>
+                <input id="name" type="text" class="validate" />
+                <label for="name">Name</label>
               </div>
               <div class="input-field col s6">
-                <input id="last_name" type="text" class="validate" />
-                <label for="last_name">Email</label>
+                <input id="email" type="text" class="validate" />
+                <label for="email">Email</label>
               </div>
             </div>
 
             <div class="row">
               <div class="input-field col s12">
-                <textarea
-                  id="textarea1"
-                  class="materialize-textarea"
-                ></textarea>
-                <label for="textarea1">Message</label>
+                <textarea id="message" class="materialize-textarea"></textarea>
+                <label for="message">Message</label>
               </div>
             </div>
 
             <div class="row">
-              <button class="waves-effect waves-light btn submitBtn">
+              <button
+                type="submit"
+                class="waves-effect waves-light btn submitBtn"
+              >
                 Submit
               </button>
             </div>
