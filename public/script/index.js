@@ -1,6 +1,8 @@
 $(document).ready(function () {
   $(".modal").modal();
 
+  $(".fixed-action-btn").floatingActionButton();
+
   $(".submitBtn").click(function () {
     event.preventDefault();
     const msg = {
